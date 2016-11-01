@@ -1,0 +1,6 @@
+{% for casa in casas %}
+<p> {{casa.direccion}} </p>
+<p> {{casa.tipo_casa}} </p>
+<p> {{casa.renta}} </p>
+<img src="{{casa.casa_frente.url}}" alt="">
+{% endfor %}

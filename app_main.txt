@@ -1,0 +1,65 @@
+app_main
+Modelos:
+	Alumno
+
+Funciones:
+	-LoginUsuario
+	-LoginAlumno
+	
+alumnos
+Modelo:
+	-Alumno
+Funciones:
+	-Registrar Alumno
+	-Eliminar Alumno
+	-Editar Alumno
+
+casas
+Modelo:
+	Casa
+Funciones:
+	-Registrar Casa
+	-Eliminar Casa
+	-Editar Casa
+
+cuentas
+Modelo:
+	
+Funciones:
+
+
+propietarios
+Modelo:
+	Propietario
+Funciones:
+	-Registrar Propietario
+	-Eliminar Propietario
+	-Editar Propietario
+
+>>> lista
+[('minix', 'chorizo'), ('paco', 'chisco')]
+>>> lista[0]
+('minix', 'chorizo')
+>>> lista[1]
+('paco', 'chisco')
+>>> if user in lista[1]:
+...     print 'existe'
+... 
+existe
+>>> for user, pas in lista:
+...     if 'paco' in user:
+...         print 'existe'
+... 
+existe
+>>> for user, pas in lista:
+...     if 'minix' in user:
+...         print 'existe'
+... 
+existe
+>>> for user, pas in lista:
+...     if 'otro' in user:
+...         print 'existe'
+... 
+>>>
+
+https://sinsitioweb.wordpress.com/2014/11/05/estilos-a-forms-django/
